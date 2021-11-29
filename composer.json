@@ -1,0 +1,15 @@
+{
+    "name": "administrator/new",
+    "autoload": {
+        "psr-4": {
+            "Administrator\\New\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hadi",
+            "email": "hadi77.hg@gmail.com"
+        }
+    ],
+    "require": {}
+}
