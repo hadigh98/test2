@@ -7,6 +7,8 @@ abstract class BaseModel {
     private   $user   = "root";
     private   $pass   = ""; 
     protected $con ;
+
+    protected $key;
     
     # Connection
     public function __construct()
