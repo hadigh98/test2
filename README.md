@@ -55,6 +55,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ### Api routes
 
+#### Api :
 #### https://api.sheryadetnare.ir/api/rp/v1/test/game/question
 
 
@@ -66,7 +67,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 | Http verb  | GET        |
 | Header     | -        |
 
-#### Response
+#### Response :
 ```
 {
     "status": "success",
@@ -75,6 +76,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 }
 ```
 
+#### Api :
 
 #### https://api.sheryadetnare.ir/api/rp/v1/test/game/question/active
 
@@ -88,7 +90,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 | Http verb  | POST        |
 | Header     | -        |
 
-#### Response
+#### Response :
 ```
 {
     "status": "success",
@@ -96,6 +98,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 }
 ```
 
+#### Api :
 
 #### https://api.sheryadetnare.ir/api/rp/v1/test/game/question/inactive
 
@@ -109,13 +112,82 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 | Http verb  | POST        |
 | Header     | -        |
 
-#### Response
+#### Response :
 ```
 {
     "status": "success",
     "msg": "success"
 }
 ```
+#### Api :
+
+#### https://api.sheryadetnare.ir/api/rp/v1/test/game/question/report
+
+| Name       | Value |
+| :---:      |    :----:   |
+| Endpoint   | "rp/v1/test/game/question/report" |
+| Controller | Game\GameController        |
+| Method     | TestGameQuestionsReportQuestion |
+| Parameter  | - |
+| Http verb  | GET|
+| Header     | -        |
+
+#### Response :
+```
+{
+
+	"status":  "success",
+
+	"data_report":  [
+
+			{
+
+			"hardship_level":  1,
+
+			"count":  2089
+
+			},
+
+			{
+
+			"hardship_level":  2,
+
+			"count":  2060
+
+			},
+
+			{
+
+			"hardship_level":  3,
+
+			"count":  1987
+
+			},
+
+			{
+
+			"hardship_level":  4,
+
+			"count":  1496
+
+			},
+
+			{
+
+			"hardship_level":  5,
+
+			"count":  1458
+
+			}
+
+		],
+
+		"un_review_count":  1
+
+}
+```
+
+
 ## Controller
 
 ### Auth controllers
