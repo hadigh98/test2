@@ -1,4 +1,5 @@
 
+
 ​<p align="center"><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQG9DjYkEPGwXQ/company-logo_200_200/0/1571819949440?e=2159024400&v=beta&t=2qw7hsgBU7rOH4O35DuMj6Efo2OukpIWFOGJRXcAZZE" width="150"></a></p>
 <p align="center" >Welcome to Sher Yadet Nare`s document  </p>
 
@@ -15,8 +16,8 @@
 	- [User controllers](#user-controllers)
     - [V2 controllers](#v2-controllers) 
 
-- [Middlewares](#Middlewares)
-- [Requests](#Requests)
+- [Middlewares](#middlewares)
+- [Requests](#requests)
 	- [V2 requests](#v2-requests)
 
 - [Jobs](#jobs)
@@ -122,6 +123,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 ### User controllers
 ### V2 controllers
 
+## Middlewares
 
 ## Requests
 
